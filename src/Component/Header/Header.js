@@ -77,8 +77,7 @@ const Header = (props) => {
 
           <div className={headcss.messengerchat}>
             <RiMessengerFill className={headcss.messenger2} onClick={click} />
-
-            {set == 1 ? <Messengerpopup valu={props.val} /> : ""}
+            {set ? <Messengerpopup valu={props.val} /> : ""}
           </div>
 
           <div className={headcss.notification}>
