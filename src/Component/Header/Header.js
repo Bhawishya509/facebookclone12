@@ -18,15 +18,6 @@ const Header = (props) => {
     props.data(1);
   };
 
-  //       setcolor((obj)=>
-  //       {
-
-  //        let temp={...obj};
-  //        temp["marketlogo"]="blue";
-  //         return {...temp}
-
-  //       });
-  // }
   return (
     <div className={headcss.home}>
       <div className={headcss.heading}>
@@ -87,7 +78,7 @@ const Header = (props) => {
           <div className={headcss.messengerchat}>
             <RiMessengerFill className={headcss.messenger2} onClick={click} />
 
-            {set === 1 ? <Messengerpopup valu={props.val} /> : ""}
+            {set == 1 ? <Messengerpopup valu={props.val} /> : ""}
           </div>
 
           <div className={headcss.notification}>
