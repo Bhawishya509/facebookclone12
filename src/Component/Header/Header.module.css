@@ -1,0 +1,238 @@
+.home {
+  display: flex;
+  height: 8vh;
+  width: 97.7.15vw;
+  background-color: #f0f2f5;
+}
+.heading {
+  display: flex;
+  height: 100%;
+  width: 100vw;
+  background-color: #d6d8da;
+  box-shadow: 1px 0px 2px 0px rgb(49, 47, 47);
+  justify-content: space-around;
+}
+.searchflogo {
+  display: flex;
+  width: 24%;
+  height: 97%;
+  align-items: center;
+  margin-right: 2%;
+  margin-top: 0.1%;
+}
+.flogo {
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding-left: 1%;
+  justify-content: space-evenly;
+}
+.facebook {
+  display: flex;
+  position: relative;
+  font-size: 2.6rem;
+  color: #0e8ef2;
+
+  padding-left: 4%;
+}
+
+.logosearch {
+  display: flex;
+  margin-left: 3%;
+  width: 71%;
+  height: 80%;
+  border-radius: 35px;
+  align-items: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: #e6f5e9;
+}
+.logo {
+  margin-top: 2%;
+}
+.fasearch {
+  font-weight: 200;
+  height: 1.5rem;
+  color: #606770;
+}
+.input {
+  font-family: "Segoe UI Historic", "Segoe UI", "Helvetica, Arial, sans-serif";
+  width: 98%;
+  margin-left: 3%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: #1b1c1d;
+  background-color: #e9f3ee;
+}
+.menu {
+  display: flex;
+  width: 40%;
+  height: 97%;
+  margin-right: 2%;
+}
+.homes,
+.friend,
+.watch,
+.market,
+.group {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeslogo,
+.grouplogo,
+.friendlogo,
+.watchlogo,
+.marketlogo,
+.profilepic {
+  display: flex;
+  /* color: #1B74E4; */
+  height: 70%;
+  width: 28%;
+  color: #606770;
+  /* color: aqua; */
+}
+.last {
+  display: flex;
+  width: 25%;
+  height: 97%;
+  /* align-items: center; */
+}
+.profile,
+.menu2,
+.messengerchat,
+.notification,
+.accountmenu {
+  height: 80%;
+  width: 13%;
+  display: flex;
+  align-items: center;
+  /* background-color: #D8DADF; */
+  margin-left: 2%;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.profilepic {
+  width: 45%;
+  margin-left: 2%;
+  padding-left: 2%;
+}
+.profilename {
+  display: flex;
+  height: 70%;
+  width: 40%;
+  align-items: center;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #75787a;
+  padding-right: 4%;
+  margin-right: 1%;
+}
+.profile {
+  margin-right: 3%;
+  width: 28%;
+  justify-content: left;
+  justify-content: space-around;
+  border-radius: 0%;
+  /* background-color: #eceef0; */
+  padding-right: 1%;
+  border-radius: 15px;
+}
+
+.messengerpopup1 {
+  position: absolute;
+  height: 600px;
+  width: 400px;
+  margin-right: 70px;
+  background-color: rgb(129, 31, 31);
+  margin-top: 650px;
+  margin-right: 155px;
+  z-index: 50;
+  border-radius: 6px;
+}
+
+.menu3,
+.messenger2,
+.notification2,
+.accountmenu2 {
+  width: 90%;
+  height: 1.6rem;
+}
+
+.menu3:hover {
+  color: #0e8ef2;
+}
+
+.messenger2:hover {
+  color: #0e8ef2;
+}
+
+.notification2:hover {
+  color: #0e8ef2;
+}
+
+.accountmenu2:hover {
+  color: #0e8ef2;
+}
+
+.profilepic:hover {
+  color: #0e8ef2;
+}
+.profile:hover {
+  color: #0e8ef2;
+}
+
+.homeslogo:hover {
+  color: #0e8ef2;
+}
+
+.grouplogo:hover {
+  color: #0e8ef2;
+}
+
+.friendlogo:hover {
+  color: #0e8ef2;
+}
+
+.watchlogo:hover {
+  color: #0e8ef2;
+}
+
+.marketlogo:hover {
+  color: #0e8ef2;
+}
+
+.group:hover {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+
+.friend:hover {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+
+.watch:hover {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+
+.market:hover {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+.homes:hover {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+.profile:hover {
+  background-color: #f2f2f2;
+}

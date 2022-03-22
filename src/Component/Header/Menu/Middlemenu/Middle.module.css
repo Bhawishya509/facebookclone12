@@ -1,0 +1,431 @@
+.hdiv {
+  display: flex;
+  height: 91vh;
+  width: 54vw;
+  /* background-color: #F0F2F5; */
+  /* border: 2px solid red; */
+  padding-top: 2%;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 2%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-left: 2%;
+  border-radius: 6px;
+  /* margin-bottom: 2%; */
+  padding-right: 16px;
+  padding-left: 8px;
+}
+.hdiv::-webkit-scrollbar {
+  align-items: center;
+  width: 0.2px;
+  border-radius: 2px;
+  background-color: #d8e0e7;
+}
+.hdiv::-webkit-scrollbar-thumb {
+  border-radius: 0.2px;
+  background-color: #bcc0c4;
+}
+.mdiv {
+  display: flex;
+  height: 210px;
+  width: 680px;
+
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 240px;
+  width: 80%;
+  display: flex;
+  /* background-color: #F0F2F5; */
+  overflow-x: scroll;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  margin-top: 18px;
+
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 8px;
+  margin-bottom: 5px;
+}
+
+.container::-webkit-scrollbar {
+  border-radius: 1px;
+  background-color: #f5f5f5;
+  height: 6px;
+  border-radius: 6px;
+}
+.container::-webkit-scrollbar-thumb {
+  height: 0px;
+  width: 0px;
+  border-radius: 8px;
+  background-color: #bdbfc0;
+}
+
+.storybox1,
+.storybox2 {
+  height: 210px;
+  width: 25%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 2px rgb(246, 245, 245);
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes mo {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+.storybox2:hover {
+  padding: 0;
+  margin: 0;
+  transform: scale(1.1);
+}
+.storybox1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://cdn.wallpapersafari.com/29/42/IsKOot.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  align-items: center;
+  width: 22%;
+  margin-top: 9px;
+  padding-left: 4px;
+  border-radius: 8px;
+  opacity: 0.8;
+  box-shadow: 1px 1px 3px 2px #6b7571;
+}
+.storybox2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 4px;
+  box-shadow: 1px 1px 3px 2px #889590;
+}
+
+.logo2 {
+  height: 38px;
+  width: 38px;
+  /* background-color: aqua; */
+  border: 2px solid #166ada;
+  border-radius: 50%;
+  margin-left: 6px;
+  position: relative;
+
+  background-color: #e9f3ee;
+  top: 16px;
+}
+
+.logo2:hover {
+  position: absolute;
+  z-index: auto;
+  border: 2px solid #166ada;
+  /* border-top-color: yellow;
+    border-bottom-color: rgb(46, 43, 226);
+    border-left-color: green;
+    border-right-color: red; */
+  animation: mo 3s linear infinite;
+  animation-direction: reverse;
+}
+.logophoto2 {
+  background-color: none;
+  background-image: url("https://5.imimg.com/data5/DG/PC/MY-51400206/taddybear-500x500.jpeg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.logo1 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  bottom: 40px;
+  left: 52px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+}
+.logophoto1 {
+  display: flex;
+  height: 90%;
+  width: 90%;
+  color: rgb(46, 39, 41);
+}
+.arrow {
+  display: flex;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  position: absolute;
+
+  border-radius: 50%;
+  border: 1px dotted red;
+  right: 0px;
+}
+.arrowlogo {
+  color: #606266;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.arrow:hover {
+  background-color: #f2f2f2;
+}
+.photo1,
+.photo2 {
+  height: 57%;
+  width: 100%;
+
+  border-radius: 5px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.photo1 {
+  height: 70%;
+}
+
+.name2 {
+  display: flex;
+  margin-top: 8%;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica;
+
+  color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.name1 {
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  font-weight: 600;
+}
+.innerblock {
+  height: 70%;
+  width: 75%;
+  justify-content: center;
+  margin-top: 4%;
+  /* border: 2px solid rgb(162, 26, 167); */
+}
+.mindinnerblock {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 100%;
+  background-color: #e9f3ee;
+  border-radius: 8px;
+  padding-bottom: 3%;
+  /* background-color: #166ADA; */
+}
+.mindinputlogo {
+  display: flex;
+  height: 50%;
+  width: 99%;
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  padding-right: 3px;
+}
+
+.kuku {
+  display: flex;
+  height: 75%;
+  width: 10%;
+
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  padding: 0;
+}
+
+.mindinput {
+  margin-left: 2%;
+  border-radius: 32px;
+  padding-left: 2%;
+  width: 77%;
+  height: 86%;
+  outline: none;
+  border: none;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  background-color: #e9f3ee;
+  color: #141618;
+  border: 0.5px solid rgb(189, 184, 184);
+}
+.mindinput:hover {
+  background-color: #dbdee2;
+}
+.mindline {
+  box-sizing: border-box;
+  background-color: #d9e0dd;
+  height: 0.1vh;
+  width: 90%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+}
+.mindvideophoto {
+  display: flex;
+
+  height: 46%;
+  width: 94%;
+  padding-left: 4%;
+}
+.videophotoemojilogoname {
+  display: flex;
+  height: 100%;
+  width: 81%;
+
+  margin-left: 1%;
+  border-radius: 6px;
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #606266;
+}
+.videophotoemojilogoname:hover {
+  background-color: #dbdee2;
+}
+.videologoname {
+  margin-left: 0;
+}
+
+.videologo {
+  display: flex;
+  color: red;
+  align-items: center;
+  font-size: 1.7rem;
+}
+.videologoname {
+  margin-left: 4px;
+}
+.galarylogo {
+  color: #31a24c;
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+}
+.happyemoji {
+  color: orange;
+  align-items: center;
+  display: flex;
+  font-size: 1.7rem;
+}
+.happyemoji:hover {
+  animation: mo 3s linear infinite;
+  animation-direction: reverse;
+}
+.createroom {
+  display: flex;
+  margin-top: 3%;
+  height: 17%;
+  width: 97%;
+  background-color: #e9f3ee;
+  border-radius: 8px;
+  align-items: center;
+  padding-left: 3%;
+}
+.videocreatelogo {
+  width: 30%;
+  height: 60%;
+
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: 2px solid #cbd4e2;
+}
+.videocreatelogo:hover {
+  background-color: #dbdee2;
+}
+.videocreatelogo1 {
+  display: flex;
+  color: rgb(241, 28, 45);
+  align-items: center;
+  font-size: 1.6rem;
+}
+.videocreatelogoname {
+  display: flex;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #216fdb;
+  font-weight: 600;
+  align-items: center;
+}
+.logo12 {
+  margin: 0;
+  padding-left: 2px;
+  width: 58%;
+  height: 70%;
+  display: flex;
+  overflow: scroll hidden;
+}
+
+.logo12::-webkit-scrollbar {
+  border-radius: 4px;
+  background-color: #fffdfd;
+  height: 4px;
+}
+.logo12::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #cdd2d4;
+}
+
+.logo13 {
+  display: flex;
+  height: 100%;
+  width: 16%;
+  margin-left: 2%;
+  border-radius: 50%;
+  border: 1px solid #c6d6d6;
+}
+
+.logophoto14 {
+  height: 100%;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  padding-bottom: 2px;
+}
+.logo15 {
+  position: relative;
+
+  height: 10px;
+  width: 8px;
+  top: 32px;
+  left: 29px;
+  border-radius: 50%;
+  background-color: green;
+  right: 0px;
+}
+.logo13:hover {
+  animation: mo 3s linear infinite;
+  animation-direction: reverse;
+}

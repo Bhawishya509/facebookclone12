@@ -1,0 +1,137 @@
+.hdiv {
+  box-sizing: border-box;
+  padding-left: 1px;
+  box-sizing: border-box;
+  margin-top: 2%;
+  margin-left: 2%;
+  /* margin-left: 800px; */
+  height: 90vh;
+  width: 25vw;
+  color: black !important;
+  border-color: black !important;
+  /* background-color:#F0F2F5; */
+}
+.mdiv {
+  height: 70%;
+  width: 90%;
+}
+.contactlogo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sponsive,
+.contact,
+.groupname {
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0d0e0f;
+}
+.contact {
+  margin-top: 2px;
+}
+.secondinput {
+  display: flex;
+  height: 60%;
+  width: 100%;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border: 0.5px solid #939799;
+  border-left: none;
+  border-right: none;
+  padding-top: 5px;
+
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
+.logo {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 2%;
+  box-sizing: border-box;
+  height: 1.5rem;
+  width: 40%;
+
+  justify-content: space-around;
+}
+.logo2 {
+  height: 100%;
+  width: 50%;
+  color: #141414;
+}
+
+.secondinputcontact {
+  box-sizing: border-box;
+
+  width: 100%;
+
+  margin-top: 4px;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.secondinputcontact::-webkit-scrollbar {
+  width: 1px;
+  border-radius: 4px;
+  background-color: #a79799;
+}
+.secondinputcontact::-webkit-scrollbar-thumb {
+  height: 12px;
+  border-radius: 6px;
+  background-color: #8b56df;
+}
+
+.secondinputlogo {
+  box-sizing: border-box;
+  color: #2e2f2f;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.friend {
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 7px;
+  height: 45px;
+  width: 100%;
+  align-items: center;
+}
+.friend:hover {
+  border-radius: 6px;
+  background-color: #e4e6e9;
+}
+
+.groupblock {
+  box-sizing: border-box;
+  padding-top: 6px;
+  height: 70%;
+  width: 100%;
+
+  padding-bottom: 6px;
+}
+.groupname {
+  font-size: 1.2rem;
+  padding-bottom: 4px;
+}
+.groupname2 {
+  height: 72%;
+  width: 100%;
+  overflow: auto;
+}
+.groupname2::-webkit-scrollbar {
+  width: 1px;
+  border-radius: 1px;
+  background-color: #a79799;
+}
+.groupname2::-webkit-scrollbar-thumb {
+  height: 1px;
+  border-radius: 6px;
+  background-color: #8b56df;
+}
+.secondinputcontactlogo {
+  font-size: 2.4rem;
+  padding-left: 5px;
+  margin-left: 8px;
+}

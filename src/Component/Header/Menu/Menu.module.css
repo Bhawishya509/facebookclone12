@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainmenu {
+  display: flex;
+  margin-top: 0.2;
+  padding-left: 2%;
+  background-color: #f0f2f5;
+  height: 92vh;
+  /* color: black !important; */
+  overflow: hidden;
+  /* justify-content: space-between; */
+  /* background-image:url("https://wallpaper.dog/large/10712350.jpg"); */
+  background-color: #adc3bc;
+}

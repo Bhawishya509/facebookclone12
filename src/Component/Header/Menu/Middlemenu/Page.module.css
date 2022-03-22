@@ -1,0 +1,219 @@
+.page {
+  margin-top: 3%;
+  height: 820px;
+  width: 100%;
+  background-color: aqua;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  color: #7a7878;
+}
+.headerpara {
+  box-sizing: border-box;
+  height: 70px;
+  width: 100%;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #e9f3ee;
+  display: flex;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.headernamephoto {
+  box-sizing: border-box;
+  width: 25%;
+  height: 100%;
+  margin-left: 5px;
+  display: flex;
+}
+.headeropition {
+  margin-top: 1%;
+  width: 7%;
+  height: 40%;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.headerphoto {
+  margin-left: 5%;
+  display: flex;
+  margin-top: 5px;
+  height: 50%;
+  width: 24%;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: url("https://i.pinimg.com/originals/8e/6f/27/8e6f2707537f15b363b4c0dc7b000d02.jpg"); */
+}
+.headername {
+  display: flex;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #3f3d3d;
+  margin-top: 8px;
+  width: 50%;
+  height: 50%;
+  flex-wrap: wrap;
+  margin-left: 7px;
+}
+
+.headeropition:hover {
+  background-color: #dbdee2;
+}
+
+.headeroptionicon {
+  background: none;
+  font-size: 25px;
+  padding-top: 2px;
+}
+
+.harderfooter {
+  height: 140px;
+  width: 100%;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #e9f3ee;
+  padding-top: 15px;
+  box-sizing: border-box;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.firstline {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  height: 25px;
+}
+.likenamelogo {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.likelogo {
+  height: 100%;
+  display: flex;
+  background: none;
+  margin-right: 4px;
+  color: #16a8fc;
+  font-size: 1.7rem;
+}
+.likecount {
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #65676b;
+}
+.commentcount {
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #65676b;
+}
+
+.likecommentshare {
+  box-sizing: border-box;
+  margin-top: 4px;
+  display: flex;
+  width: 100%;
+
+  height: 40px;
+  border: 0.5px solid #ced0d4;
+  border-left: none;
+  border-right: none;
+  align-items: center;
+}
+.likeslogoname {
+  width: 90%;
+  display: flex;
+  height: 80%;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #606266;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.comentlogo,
+.sharelogo,
+.likeslogo {
+  display: flex;
+  font-size: 1.7rem;
+  margin-right: 2px;
+  color: #606266;
+
+  width: 25%;
+}
+.comentlogo {
+  font-size: 1.5rem;
+}
+.likesname,
+.sharename {
+  display: flex;
+  margin-right: 5px;
+}
+.likeslogoname:hover {
+  background-color: #e6e6e6;
+  border-radius: 6px;
+}
+.footerinputlogo1 {
+  display: flex;
+  margin-top: 4px;
+  width: 100%;
+  height: 40px;
+  padding-right: 3px;
+  padding-left: 3px;
+  justify-content: space-between;
+  /* background-color: #16A8FC; */
+
+  align-items: center;
+}
+.footerinputphoto {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-image: url("https://i.pinimg.com/originals/8e/6f/27/8e6f2707537f15b363b4c0dc7b000d02.jpg");
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+.footerinput {
+  width: 90%;
+  height: 33px;
+  border-radius: 18px;
+
+  outline: none;
+  background-color: #dcdee0;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
+}
+.footerinput1 {
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+
+  width: 78%;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 4px;
+  font-size: 1rem;
+}
+.footerinput2 {
+  margin-left: 2%;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

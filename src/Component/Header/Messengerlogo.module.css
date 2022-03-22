@@ -1,0 +1,57 @@
+.kuku {
+  display: flex;
+  margin-top: 2px;
+  height: 80px;
+  width: 100%;
+
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+}
+.kuku:hover {
+  border-radius: 8px;
+  background-color: rgb(221, 252, 252);
+}
+.namemessage {
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin-left: 6px;
+  height: 50px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.name {
+  height: 15px;
+  padding: 2px;
+  padding-bottom: 4px;
+  width: fit-content;
+  color: rgb(36, 35, 34);
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+.messagetime {
+  height: 30px;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2px;
+}
+.message {
+  width: 74%;
+  overflow: hidden;
+
+  color: rgb(112, 104, 112);
+  font-weight: 700;
+}
+.time {
+  margin-right: 5px;
+  color: rgb(51, 45, 51);
+}
