@@ -12,6 +12,7 @@
   /* background-color: aquamarine; */
   cursor: pointer;
   flex-wrap: wrap;
+  background-image: linear-gradient(#08587d, #508ba7, #278bb9);
 }
 .homemainblock {
   margin-top: 7%;
@@ -46,7 +47,7 @@
 .facebooklogo {
   display: flex;
   font-family: Helvetica, Arial, sans-serif;
-  color: rgb(94, 22, 229);
+  color: #5d0ef0;
   font-size: 3.7rem;
   height: 7vh;
 

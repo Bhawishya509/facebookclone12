@@ -14,6 +14,7 @@
 .mdiv {
   height: 70%;
   width: 90%;
+  cursor: pointer;
 }
 .contactlogo {
   width: 100%;
